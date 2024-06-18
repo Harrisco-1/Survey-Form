@@ -1,0 +1,67 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #4b1b42;
+  color: #f7f7f7;
+  font-family: Tahoma;
+  font-size: 19px;
+  border: none;
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 70vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+  
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+input, textarea {
+  background-color: #2a1a23;
+  border: 1px solid #2a3a23;
+  color: #f1ff;
+}
+
+.gender, .friend {
+  width: unset;
+  margin: 4px 1em 0 4px;
+  vertical-align: middle;
+}
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 4em;
+  font-size: 1rem;
+  background-color: #2b8b48;
+  border-color: white;
+  min-width: 400px;
+}
+.phone{background-color: white;}
